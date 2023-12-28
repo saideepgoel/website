@@ -1,15 +1,3 @@
-/* Night mode logic*/
-/*
-document.addEventListener("DOMContentLoaded", function() {
-  const toggle = document.querySelector(".mode");
-
-  toggle.addEventListener("click", function() {
-    const isNightMode = document.body.classList.toggle("mode-night");
-    document.body.style.backgroundColor = isNightMode ? "black" : "white";
-  });
-});
-*/
-
 /* Content showing */
 function toggleVisibility(element) {
   element.classList.toggle("showing-visible");
@@ -30,7 +18,6 @@ toggleVisibility(document.querySelector('.show'));
 /* dark-mode and light-mode*/
 function toggleMode() {
   document.body.classList.toggle("dark-mode");
-  document.getElementById('header').classList.toggle("dark-mode");
-  document.getElementById('footer').classList.toggle("dark-mode");
+  document.getElementById("Header").classList.toggle("dark-mode");
+  document.getElementById("Footer").classList.toggle("dark-mode");
 }
-

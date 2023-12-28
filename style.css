@@ -28,7 +28,7 @@ header {
 
 .nav {
   display: flex;
-  padding-right: 600px;
+  padding-right: 75px;
 }
 
 .nav-bar {
@@ -41,30 +41,25 @@ header {
   padding-top: 50px;
 }
 
-/* header div {
-  margin-left: 8px;
-} */
-
-/* header ul li {
-  display: flex;
-  flex-direction: column;
-}
- */
-
-/* #header_table {
-  border-collapse: separate;
-  border-spacing: 30px;
-  max-height: 200px;
-  width: 100%;
+.li_nav_left {
+  padding-left: 50px;
 }
 
-#nav_center {
-  padding-left: 375px;
+.li_nav_left3 {
+  padding-left: 50px;
+  padding-right: 200px;
 }
 
-#nav_right {
-  padding-left: 425px;
-} */
+.li_nav_more_left {
+  padding-left: 200px;
+}
+
+#logo {
+  margin: 40px auto;
+  width: 200px;
+  height: auto;
+  padding-right: 200px;
+}
 
 /* Hover over frontend  */
 
@@ -81,7 +76,6 @@ header {
   visibility: hidden;
   width: 100px;
 }
-
 
 .showing-visible {
   visibility: visible;
@@ -107,13 +101,11 @@ header {
 }
 
 /*Main*/
-
-/* Adjust size as per space here  */
 main {
   padding: 0px 0px 1px 3px;
   margin: 10px;
-  height: 1000px;
-  width: 400px;
+  height: auto;
+  width: auto;
 }
 
 /*Footer*/
@@ -130,12 +122,6 @@ footer {
   width: auto;
   max-width: 90%;
   box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.2);
-}
-
-#logo {
-  margin: 40px auto;
-  width: 200px;
-  height: auto;
 }
 
 /* Button Styles */
