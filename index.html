@@ -1,0 +1,94 @@
+<!-- ॐ गण गणपतये नमो नमः -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body class="dark-mode">
+  <script src="script.js"></script>
+  <!-- Body Div -->
+  <div class="unselectable">
+
+    <!-- Header Tab -->
+    <!-- <header class="light-mode" id="Header">
+      <nav>
+        <table id="header_table">
+          <thead>
+            <tr>
+              <td><img src="Media/Logo Black.png" alt="Coding Masters" id="logo">
+              </td>
+              <td id="nav_center">HTML</td>
+              <td>CSS</td>
+              <td>JavaScript</td>
+              <td>Backend</td>
+              <td><button class="mode">Toggle</button></td>
+              <td onclick="dark_mode()" id="nav_right">&#127769;</td>
+              <td onclick="light_mode()"> <span class=" sun_yellow">&#9728;</span> </td>
+            </tr>
+          </thead>
+        </table>
+      </nav>
+    </header> -->
+    <header class="light-mode" id="Header">
+
+      <nav class="nav">
+        <img src="Media/Logo Black.png" alt="Coding Masters" id="logo">
+        <ul class="nav-bar">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Join Community</li>
+          <li><button onclick="toggleMode()" >Toggle Mode</button></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Main Body -->
+    <main class="dark-mode">
+      <span id="frontend">
+        <div id="intro">
+          <h2>Introduction To Web Development</h2>
+          <ul class="li_margin">
+            <li><a href="">Web Development - Basics</a></li>
+            <li><a href="">Browser and SEO</a></li>
+          </ul>
+        </div>
+        <div id="html">
+          <h2 class="show" onclick="toggleVisibility(this)">HTML</h2>
+          <ul class="li_margin">
+            <li class="show showing-invisible"><a href="">Intro</a></li>
+            <li class="show showing-invisible"><a href="">Main</a></li>
+            <li class="show showing-invisible"><a href="">Tags</a></li>
+          </ul>
+        </div>
+        <div id="css">
+          <h2 class="show" onclick="toggleVisibility(this)">CSS</h2>
+          <ul class="li_margin">
+            <li class="showing-invisible"><a href="#">Intro</a></li>
+            <li class="showing-invisible"><a href="#">Colors</a></li>
+            <li class="showing-invisible"><a href="#">Text Property</a></li>
+          </ul>
+        </div>
+        <div id="js">
+          <h2 class="show">JavaScript</h2>
+          <ul class="li_margin">
+            <li></li>
+          </ul>
+        </div>
+      </span>
+    </main>
+
+    <!-- Footer Tab -->
+    <footer class="light-mode" id="Footer">Footer</footer>
+  </div>
+</body>
+
+</html>

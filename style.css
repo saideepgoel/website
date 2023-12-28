@@ -1,0 +1,194 @@
+/*Universal Settings*/
+* {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.light-mode {
+  background-color: white;
+  color: #1f1f1f;
+}
+
+.dark-mode {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+/*Body - Header, Main and Footer*/
+
+/*Header*/
+header {
+  box-shadow: 0 2px 3px 2px rgba(255, 255, 255, 0.400);
+}
+
+.nav {
+  display: flex;
+  padding-right: 600px;
+}
+
+.nav-bar {
+  display: flex;
+  padding-top: 15px;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+/* header div {
+  margin-left: 8px;
+} */
+
+/* header ul li {
+  display: flex;
+  flex-direction: column;
+}
+ */
+
+/* #header_table {
+  border-collapse: separate;
+  border-spacing: 30px;
+  max-height: 200px;
+  width: 100%;
+}
+
+#nav_center {
+  padding-left: 375px;
+}
+
+#nav_right {
+  padding-left: 425px;
+} */
+
+/* Hover over frontend  */
+
+.show {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+}
+
+.showing-invisible {
+  display: flex;
+  cursor: pointer;
+  visibility: hidden;
+  width: 100px;
+}
+
+
+.showing-visible {
+  visibility: visible;
+  width: 100px;
+}
+
+/* Night mode*/
+.mode {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mode-night {
+  width: 60px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: thin black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Main*/
+
+/* Adjust size as per space here  */
+main {
+  padding: 0px 0px 1px 3px;
+  margin: 10px;
+  height: 1000px;
+  width: 400px;
+}
+
+/*Footer*/
+footer {
+  height: 125px;
+  bottom: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* Image Styles */
+.img_notes {
+  margin: 40px auto;
+  width: auto;
+  max-width: 90%;
+  box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.2);
+}
+
+#logo {
+  margin: 40px auto;
+  width: 200px;
+  height: auto;
+}
+
+/* Button Styles */
+.btn {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  margin: 6px 12px;
+  padding: 12px 12px;
+  overflow-y: hidden;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  border-radius: 5px;
+  height: 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1d4242;
+  text-decoration: underline;
+  text-decoration-color: black;
+  cursor: pointer;
+}
+
+/* Link Styles */
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  transition: color 0.5s ease-in-out;
+}
+
+/*List Styles*/
+.li_margin {
+  margin-left: 20px;
+}
+
+.ul_no_style {
+  list-style-type: none;
+}
+
+/*Other Styles*/
+
+.sun_yellow {
+  color: #d4d416;
+  font-size: 30px;
+}

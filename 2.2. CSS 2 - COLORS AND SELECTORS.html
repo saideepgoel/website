@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS - COLORS AND SELECTORS</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body class="primary_colors">
+        <h2>Now, We Will Learn About Some Tags.</h2>
+        <ol>
+            <h2>Color Properties</h2>
+            <h4>About Color System</h4>
+            <p>
+                There are two main color systems: <br />
+                a. Hex - Hex stands for "hexadecimal color, for example hex code
+                of cyan is #00FFFF<br />
+                b. RGB - RGB stands for RED, GREEN, BLUE, and it represents
+                values of red, green, and blue ranging from 0 to 255, for
+                example rgb code of cyan is rgb(0, 255, 255)
+            </p>
+            <!-- Color -->
+            <h3>
+                <li>Color Tag:</li>
+            </h3>
+            <ul>
+                <p>
+                    It is used to set the color of foreground (or you can say
+                    text coming on screen).It is Used As:
+                </p>
+                <pre>color: red;</pre>
+                <p>And it will work as:</p>
+                <p style="color: red">RED COLOR</p>
+            </ul>
+            <!-- Background-color -->
+            <h3>
+                <li>BackGround-Color:</li>
+            </h3>
+            <ul>
+                <p>It is used to set the color of background. It is Used As:</p>
+                <pre>background-color: black;</pre>
+                <p>And it will work as:</p>
+                <p style="background-color: black; width: max-content">TEXT</p>
+            </ul>
+        </ol>
+        <hr width="80%" />
+        <!-- SELECTORS -->
+        <!-- Universal Selector -->
+        <ol>
+            <h2>SELECTORS IN CSS</h2>
+            <h3>
+                <li>Universal Selector:</li>
+            </h3>
+            <ul>
+                <p>
+                    It is written as *{Property:Value}, it is used to apply CSS
+                    to whole document.
+                </p>
+            </ul>
+            <!-- Element Selector -->
+            <h3>
+                <li>Element Selector:</li>
+            </h3>
+            <ul>
+                <p>
+                    It is written as element(h1,p,h2 etc.){Property:Value;}, it
+                    is used to apply CSS to just one element.
+                </p>
+            </ul>
+            <!-- Heading Selector -->
+            <h3>
+                <li>Heading Selector:</li>
+            </h3>
+            <ul>
+                <p>
+                    It is written in the tag(for ex., &lt;h1
+                    id="heading1"&gt;Content&lt;/h1&gt;), it is used to give tag
+                    their unique name, which can be used while writing CSS. It
+                    can be called/used in CSS by #id_name {Property:Value;}
+                </p>
+                <pre> In HTML Code: <br> &lt;h1 id="heading1"&gt;Content&lt;/h1&gt; <br><br> In CSS Code: <br> heading1 { <br> background-color: aqua; <br> }  </pre>
+                <p>Note: Single ID should not be used multiple times.</p>
+            </ul>
+            <!-- Class Selector -->
+            <h3>
+                <li>Class Selector:</li>
+            </h3>
+            <ul>
+                <p>It is used to write code single time and reuse it.</p>
+                <pre> In HTML Code: <br> &lt;body class="primary_color"&gt; <br><br> In CSS Code: <br> .primary_class { color:white; }</pre>
+                <p>
+                    Note: Unlike IDs, Classes and be used many times And
+                    selectors also works with comma i.e h1, h2, h3 {Property:
+                    Value;}
+                </p>
+            </ul>
+        </ol>
+        <hr />
+        <footer>
+            <a href="CSS 1 - INTRO.html"
+                ><button>&larr; GO TO PREVIOUS PAGE</button></a
+            >
+            <a href="CSS 3 - TEXT PROPERTIES.html"
+                ><button>GO TO NEXT PAGE &rarr;</button></a
+            >
+        </footer>
+    </body>
+</html>

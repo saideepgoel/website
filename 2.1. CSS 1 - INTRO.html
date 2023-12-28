@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO TO CSS</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body class="primary_colors">
+    <h1>WHAT IS CSS?</h1>
+    <p>CSS IS A LANGUAGE THAT IS USED TO GIVE STYLE TO A WEB PAGE. ALL THE STYLES IS ADDED THROUGH CSS IN A HTML FILE.
+    </p>
+    <hr>
+    <h2>CSS SYNTAX-</h3>
+        <p>" h1 { color: red; } ", Here "h1" is selector or tag where css is applied and color is property which you
+            want to
+            apply and red is value under property</p>
+        <hr>
+        <h2>There Are Three Types Of CSS:-
+            <ol>
+                <li>Inline CSS</li>
+                <li>Internal CSS (&lt;style&gt;)</li>
+                <li>External CSS</li>
+            </ol>
+        </h2>
+        <p>Let's Now Study All Types individually</p>
+        <h3>Inline CSS</h3>
+        <p>In Inline CSS the style is individually given to the selector by using style attribute in it.</p>
+        <p> It can be written as"&lt;h1 style="color: pink; background-color: rgb(24, 199,173); text-align:
+            center;"&gt;TEXT&lt;/h1&gt;"and it will work as:</p>
+        <h1 style="color: pink; background-color: rgb(24, 199, 173); text-align: center;">TEXT</h1>
+        <hr>
+        <h3>Internal CSS</h3>
+        <p>In Internal CSS, style tag is used to give CSS in head tag only.</p>
+        <p>It can be written as</p>
+        <pre>
+        &lt;head&gt;
+        &lt;style&gt;  
+                h1 { 
+                        background-color: aqua;  
+                    }  
+            &lt;/style&gt;
+        &lt;/head&gt; </pre>
+        <p>Now, If anywhere h1 is used than the CSS will be applied</p>
+        <hr>
+        <h3>External CSS</h3>
+        <p>In External CSS, we make different file for HTML and different file for CSS and then we add CSS file in HTML
+            file
+        </p>
+        <p>Syntax for adding CSS file to HTML file is &lt;link rel="stylesheet" href="path of link"&gt;</p>
+        <p>Steps to make External Stylesheet:</p>
+        <ol>
+            <li>
+                Make External Stylesheet with extension .css
+            </li>
+            <li>
+                Link the file in head tag by &lt;link rel="stylesheet" href="path of link"&gt;
+            </li>
+            <li>
+                Now, File is linked and you can code in the file and it will automatically be updated in HTML file
+            </li>
+        </ol>
+        <p>Note: If All three types of CSS is used than inline CSS will be considered.</p>
+        <hr>
+        <footer>
+            <a href="CSS 2 - COLORS AND SELECTORS.html"><button>GO TO NEXT PAGE &rarr;</button></a>
+        </footer>
+</body>
+
+</html>
