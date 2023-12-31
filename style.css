@@ -51,7 +51,9 @@ header {
 }
 
 .li_nav_more_left {
-  padding-left: 200px;
+  margin-left: 250px;
+  margin-right:10px;
+  cursor: pointer;
 }
 
 #logo {
@@ -65,21 +67,21 @@ header {
 
 .show {
   display: flex;
-  color: white;
+  /* color: white; */
   cursor: pointer;
-  width: 150px;
+  /* width: 150px; */
 }
 
 .showing-invisible {
   display: flex;
   cursor: pointer;
   visibility: hidden;
-  width: 100px;
+  /* width: 100px; */
 }
 
 .showing-visible {
   visibility: visible;
-  width: 100px;
+  /* width: 100px; */
 }
 
 /* Night mode*/
@@ -176,5 +178,5 @@ a:hover {
 
 .sun_yellow {
   color: #d4d416;
-  font-size: 30px;
+  font-size: 20px;
 }
