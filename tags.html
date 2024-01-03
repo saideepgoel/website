@@ -1,0 +1,131 @@
+<!--text to be commented--><!--they are used to comment-->
+<!DOCTYPE html> <!--it is used to tell that we are using html language-->
+<head> <!--items that work on backend are written here and also title is written here-->
+    <!--meta tags are used to help seo(search engine optimization)-->
+    <meta charset="UTF-8"> <!--this is used to tell search engine that our charset is "UTF-8"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description"> <!--this is the description which is shown when the visitor search our site on search engine and then it is shown under the blue link-->
+    <meta name="keywords" content="key, word, words"> <!--these are the keywords that help search engine to find correct site for user-->
+    <meta name="robot" content="INDEX, FOLLOW"> <!--these tell the search engine that wheter our site should be shown\traced on webpage or not-->
+    <title>Document</title>
+</head>
+
+<html lang="en"> <!--write this tag to start HTML code-->
+
+    <head> <!--in this tag all the things not to be displayed are written-->
+
+        <Title> <!--it is used to give title that is written at the top of the screen-->
+        </Title> <!--close title tag-->
+
+    </head> <!--close head tag-->
+
+    <body> <!--things to be displayed is written-->
+
+        <header> <!--it is used to display things at top the of web page-->
+        </header> <!--close header tag-->
+
+        <section> <!--it is used for creating section on a page-->
+        </section> <!--close section tag-->
+
+        <article> <!--it used to creating article on the page-->
+        </article> <!--close article tag-->
+
+        <aside> <!--it is used for ads on the page or content aside the main content-->
+        </aside> <!--close aside tag-->
+
+        <main> <!--it is used to display things at mid of the web page-->
+        </main>  <!--close main tag-->
+
+        <p></p> <!-- it is used for paragraph writing -->
+
+        <br> <!-- it is used for skip a line -->
+
+        <h1></h1> <!--these are headings h1 is the largest and h6 is smallest heading in terms of size-->
+        <h2></h2> <!--these are headings h1 is the largest and h6 is smallest heading in terms of size-->
+        <h4></h4> <!--these are headings h1 is the largest and h6 is smallest heading in terms of size-->
+        <h5></h5> <!--these are headings h1 is the largest and h6 is smallest heading in terms of size-->
+        <h6></h6> <!--these are headings h1 is the largest and h6 is smallest heading in terms of size-->
+
+        <ul> <!--this tag is known as unodered list., this is used to create a list., in this bullets will come at serial no place-->
+            <li> <!--this tag is known as list item.,in this tag data to be shown is written-->
+                example
+            </li> <!--close li tag-->
+        </ul> <!--close ul tag-->
+
+        <ol> <!--this tag is known as odered list., this is used to create a list., in this natural_number,roman,alphabet(your choice) can come at serial no place-->
+            <li> <!--this tag is known as list item.,in this tag data to be shown is written-->
+                example
+            </li> <!--close li tag-->
+        </ol> <!--close ol tag-->
+
+        <img src="link" alt="information" height="100" width="100"><br> <!--this is used to add image on a webpage., and alt tag is used to give information about that tag that will be displayed when image is not loaded(due to any of the error/reason) on the webpage., height and width are used to adjust size of image-->
+
+        <a href="site name" target="_main">example</a><br> <!--it is known as anchor tag, it is used to set hyperlink on any pic,word etc., target attribute is used to set whether the link will open on same page or another-->
+        <a href="site name" target="_main"><img src="link"></a><br> <!--this is used to add hyperlink in in image.-->
+
+        <table> <!--this is used to create table-->
+            <caption> <!--add a caption to table., it will be displayed on top of the table-->
+                caption
+            </caption> <!--close caption tag-->
+            <thead> <!--it is used to define head in table-->
+                <tr> <!--this is used to create table row-->
+                    <th colspan="2"> <!--this tag is known as table header., this is used to highlight columns in table usuall it is used in first row., colspan tell that column will take place of how many columns like if it is coming above of 1 column than it will come above of 2 column-->
+                        example 
+                    </th> <!--close th tag-->
+                    <th> <!--this tag is known as table header., this is used to highlight columns in table usuall it is used in first row-->
+                        example
+                    </th> <!--close th tag-->
+                </tr> <!--close tr tag-->
+            </thead> <!--close thead tag-->
+            <tbody> <!--it is used to define content in body-->
+                <tr>
+                    <td> <!--this tag is known as table data., data to be displayed on webpage is written here-->
+                        example
+                    </td> <!--close td tag-->
+                    <td> <!--this tag is known as table data., data to be displayed on webpage is written here-->
+                        example
+                    </td> <!--close td tag-->
+                </tr>
+            </tbody>
+        </table> <!--close table-->
+
+        <div class="file"> <!--it is like the another body on webpage., it is block element., it is block element(elements which take full width)., class attribute allows us to write css in one file and then we can add it here and all the design given in that file is copied to the text on which this class is applied-->
+        </div> <!--close div tag-->
+
+        <span> <!--it is like the div but it is inline element(elements which take the required width)-->
+        </span>
+        
+        <form action="file"> <!--it is used to create form on webpage., action attribute defines that where the submitted data will go-->
+            <input type="text" placeholder="Entername"> <!--input element create a blank in a form., type attribute is used to define that what to take like text stand for only alphabets no integers involved and there are many more like number,email etc., placeholder attribute writes the text on the blank that tells what to fill here-->
+            <label> <!--label allows the user to click anywhere on text instead clicking on the box only-->
+                <input type="radio" value="1st class" name="class">1st class <!--radio type is used to create radio buttons., the value of selected radiobutton is saved so it should always be given and correct and the name determines the group set of radiobuttons and only one radiobutton can selected of one name group., and the value written after ">" is displayed on webpage-->
+            </label>
+            <label>
+                <input type="radio" value="2nd class" name="class" id="101">2nd class <!--id is backend name of tag-->
+            </label>
+            <input type="submit"> <!--this is used to create submit button and button tag is also used to create buttons-->
+            <select name="city"> <!--this option is used to create a dropbox on webpage-->
+                <option value="delhi"> <!--this tag is used to give optionsin dropbox and the inbetwwen content of starting and closing tag is displayed on webpage-->
+                    delhi
+                </option> <!--close option tag-->
+                <option value="pune"> <!--this tag is used to give optionsin dropbox and the inbetwwen content of starting and closing tag is displayed on webpage-->
+                    pune
+                </option> <!--close option tag-->               
+                <option value="mumbai"> <!--this tag is used to give optionsin dropbox and the inbetwwen content of starting and closing tag is displayed on webpage-->
+                    mumbai
+                </option> <!--close option tag-->
+            </select>
+            <textarea name="feesdback" placeholder="pls give your feedback" rows="10"> <!--this is tag used for taking feedback and many mor things., if anything is written between opening and closing tag then it will be displaayed as text on webpage., row attribute is used to give spacing (if 5 rows are written than feedback will tak 5 rows but more can be taken on scrolling on webpage)-->
+            </textarea> <!--close textarea tag-->
+        </form> <!--close form tag-->
+
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> <!--iframe allows to add another video or anyhting else link to our website-->
+        </iframe><!--close iframe tag-->
+
+        <footer> <!--it is used to display things at bottom of the web page-->
+        </footer> <!--close footer tag-->
+
+    </body> <!--close body tag-->
+
+</html> <!--close html tag-->
