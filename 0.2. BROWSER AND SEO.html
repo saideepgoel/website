@@ -8,8 +8,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <div class="setting">
+<body class="dark-mode">
+  <!-- Header Tab -->
+  <header class="light-mode" id="Header">
+
+    <nav class="nav">
+      <img src="Media/Logo Black.png" alt="Coding Masters" id="logo">
+      <ul class="nav-bar">
+        <li>Home</li>
+        <li class="li_nav_left">About Us</li>
+        <li class="li_nav_left">Contact Us</li>
+        <li class="li_nav_left3">Join Community</li>
+        <li class="li_nav_more_left" onclick="colorMode()"><span class="sun_yellow">&#x2600;</span></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Main Body -->
+  <main id="main">
     <h2>Understanding Browser</h2>
     <p>A browser is a software application that allows users to view and interact with web pages. It translates web code
       into a visual display, enabling users to interact with websites and online resources.</p>
@@ -56,14 +73,17 @@
     <hr>
     <h3>Meta Tags</h3>
     <hr>
-  </div>
-  <footer>
+  </main>
+
+  <!-- Footer Tab -->
+    <footer class="light-mode" id="Footer">
     <a href="0.2. WEB DEVELOPMENT - BASICS.html">
       <span class="btn">&larr; Go To Previous Page</span>
     </a>
     <a href="1.1. HTML - INTRO.html">
       <span class="btn"> Go To Next Page &rarr;</span>
     </a>
+
   </footer>
 </body>
 
