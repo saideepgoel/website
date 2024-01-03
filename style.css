@@ -19,6 +19,24 @@
   color: white;
 }
 
+/* Night mode*/
+.mode {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mode-night {
+  width: 60px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: thin black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /*Body - Header, Main and Footer*/
 
 /*Header*/
@@ -52,7 +70,7 @@ header {
 
 .li_nav_more_left {
   margin-left: 250px;
-  margin-right:10px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -63,51 +81,32 @@ header {
   padding-right: 200px;
 }
 
-/* Hover over frontend  */
-
-.show {
-  display: flex;
-  /* color: white; */
-  cursor: pointer;
-  /* width: 150px; */
-}
-
-.showing-invisible {
-  display: flex;
-  cursor: pointer;
-  visibility: hidden;
-  /* width: 100px; */
-}
-
-.showing-visible {
-  visibility: visible;
-  /* width: 100px; */
-}
-
-/* Night mode*/
-.mode {
-  display: inline-block;
-  width: 60px;
-  height: 30px;
-  cursor: pointer;
-}
-
-.mode-night {
-  width: 60px;
-  height: 30px;
-  color: white;
-  background-color: black;
-  border: thin black;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
 /*Main*/
 main {
   padding: 0px 0px 1px 3px;
   margin: 10px;
   height: auto;
   width: auto;
+}
+
+/* Hover over frontend  */
+.show {
+  display: flex;
+  /* color: white; */
+  cursor: pointer;
+  width: max-content;
+}
+
+.showing-invisible {
+  display: flex;
+  cursor: pointer;
+  visibility: hidden;
+  width: max-content;
+}
+
+.showing-visible {
+  visibility: visible;
+  width: max-content;
 }
 
 /*Footer*/
@@ -120,10 +119,10 @@ footer {
 
 /* Image Styles */
 .img_notes {
+  display: block;
   margin: 40px auto;
   width: auto;
   max-width: 90%;
-  box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.2);
 }
 
 /* Button Styles */

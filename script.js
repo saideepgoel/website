@@ -16,30 +16,10 @@ toggleVisibility(document.querySelector('.show'));
 
 
 /* dark-mode and light-mode*/
-// function colorMode() {
-//   document.body.classList.toggle("dark-mode");
-//   document.getElementById("Header").classList.toggle("dark-mode");
-//   document.getElementById("Footer").classList.toggle("dark-mode");
-//   const logo = document.getElementById("logo");
-//   logo.src = "Media/Logo White.png";
-// }
-
-let clickCount = 0;
-
-let isWhite = false;
-
 function colorMode() {
   document.body.classList.toggle("dark-mode");
   document.getElementById("Header").classList.toggle("dark-mode");
   document.getElementById("Footer").classList.toggle("dark-mode");
-
   const logo = document.getElementById("logo");
-
-  if (isWhite) {
-    logo.src = "Media/Logo White.png";
-  } else {
-    logo.src = "Media/Logo Black.png";
-  }
-
-  isWhite = !isWhite;
+  logo.src = "Media/Logo White.png";
 }
