@@ -6,11 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WEB DEVELOPMENT - BASICS</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
-<body>
-  <header class="dark-mode"></header>
-  <main class="light-mode">
+<body class="dark-mode">
+  <header class="light-mode" id="Header">
+
+    <nav class="nav">
+      <img src="Media/Logo Black.png" alt="Coding Masters" id="logo">
+      <ul class="nav-bar">
+        <li>Home</li>
+        <li class="li_nav_left">About Us</li>
+        <li class="li_nav_left">Contact Us</li>
+        <li class="li_nav_left3">Join Community</li>
+        <li class="li_nav_more_left" onclick="colorMode()"><span class="sun_yellow">&#x2600;</span></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
     <h2>What Is Web Development?</h2>
     <p>Web development involves creating and maintaining websites or web applications, encompassing tasks such as
       designing, coding, and troubleshooting to ensure seamless user experiences..</p>
@@ -32,7 +46,7 @@
       <li>JavaScript</li>
     </ol>
     </p>
-    <img alt="Fronthend Roadmap" src="Media/Frontend Roadmap.png">
+    <img alt="Fronthend Roadmap" src="Media/Frontend Roadmap.png" class="img_notes">
     <hr>
     <h2>Backend</h2>
     <p>Backend is basically means working on server-side software, which focuses on everything you can't see on a
@@ -58,7 +72,7 @@
     <img alt="Backend Roadmap">
     <hr>
   </main>
-  <footer class="dark-mode">
+  <footer class="light-mode" id="Footer">
     <a href="0.3. BROWSER AND SEO.html">
       <span class="btn"> Go To Next Page &rarr;</span>
     </a>
